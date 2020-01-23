@@ -1,0 +1,6 @@
+.hello {
+    background-image:url('https://images-for-portfolio.s3.us-east-2.amazonaws.com/20191211_130649.jpg');
+    background-repeat: no-repeat;
+    min-width: 100%;
+    padding-bottom: 100px;
+}
