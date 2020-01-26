@@ -1,6 +1,85 @@
 .hello {
-    background-image:url('https://images-for-portfolio.s3.us-east-2.amazonaws.com/20191211_130649.jpg');
+    background-image:url('https://images-for-portfolio.s3.us-east-2.amazonaws.com/20191211_130739.jpg');
+    background-image: url('https://images-for-portfolio.s3.us-east-2.amazonaws.com/20191211_130438.jpg');
     background-repeat: no-repeat;
-    min-width: 100%;
-    padding-bottom: 100px;
+    background-size: cover;
+    
+}
+.s {
+    font-size: 0.5em;
+}
+.hello-text {
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 2em;
+    /* text-shadow: 1px 1px 2px red, 0 0 0.2em rgb(24, 24, 116), 0 0 0.2em rgb(24, 24, 116) ;  */
+    text-shadow: 0 0 0.2em rgb(7, 35, 66);
+    margin: auto;
+    padding: 30px;
+    
+}
+.myName {
+    font-family: 'Play', sans-serif; 
+    font-size: 1.8em;
+}
+
+
+.about {
+    /* background-color:rgb(24, 24, 116); */
+    background-color: rgb(69, 151, 120); 
+    background-color: rgb(85, 169, 194);   
+    font-family: 'Lexend Giga', sans-serif; 
+    color: white;
+    margin: 0;
+    padding: 1.5em;
+    /* font-size: 2em; */
+   
+}
+
+.aboutP {
+   
+}
+.love {
+    background-color: rgb(242, 107, 91);
+    background-color: rgb(223, 236, 241);  
+    color: rgb(5, 40, 87);
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 1.5em;
+    padding: 1.5em;
+}
+
+@media (min-width: 600px) {
+    .hello{
+        padding-bottom: 200px;
+        padding-top: 150px;
+        display: flex;
+    }
+    .hello-text {
+        font-size: 4em;
+        width: 85%;
+    }
+    .myName {
+        padding:0px;
+        /* font-size: 4em;  */
+    }
+    .about {
+       padding: 5em; 
+       padding-bottom: 6em;
+       font-size: 1.8em;
+    }
+    .aboutP {
+        text-align: right;
+        padding-left: 40%;
+        font-size: 0.7em;
+    }
+    .love {
+        padding: 5em;
+    }
+    .love-text{
+        padding-left: 6em;
+    }
+    .sql {
+        padding-left: 5em;
+    }
 }

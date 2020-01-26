@@ -1,0 +1,18 @@
+main {
+    font-family: 'Lexend Giga', sans-serif;
+}
+header {
+        background-color:  rgb(15, 76, 129);
+         margin: 0;
+        padding: 10px;   
+}
+
+a {
+    color: rgb(205, 217, 233);
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}

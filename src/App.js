@@ -6,7 +6,7 @@ import MainPage from './MainPage/MainPage';
 import Contact from './Contact/Contact';
 import Resume from './Resume/Resume';
 import Projects from './Projects/Projects';
-
+import './App.css';
 
 export default class App extends React.Component {
 
@@ -20,10 +20,10 @@ export default class App extends React.Component {
 
         </header>
         <main>
-          <Route path='/' component={MainPage} />
-          <Route path='/resume' component={Resume} />
+          <Route exact path='/' component={MainPage} />
+          <Route exact path='/Resume' component={Resume} />
           <Route exact path='/Projects' component={Projects} />
-          <Route exact path='/Contact' component={Contact} />
+          
         </main>
 
       </div>
