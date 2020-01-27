@@ -1,7 +1,7 @@
  const projects = [
     {
         id: 1,
-        name: 'Yogi Track',
+        name: 'Yoga Track',
         description: ` A Full-Stack mobile first responsive web application for yoga teachers and enthusiasts helping a user to explore and learn avariety of poses, providing an english and sanskrit name for each pose with alphabetic sort based on either. The user can then create an account where he/she can save poses into yoga-flows as inspirations for a class or record of personal practice with notes and personal rating system.`,
         images: ['https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga-cap-screens/home.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga-cap-screens/login.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga-cap-screens/poses.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga-cap-screens/pick-flow.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga-cap-screens/flow-view.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga-cap-screens/flow-card.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga-cap-screens/card-attr.png'],
         projectLink: 'yogi-track.now.sh',

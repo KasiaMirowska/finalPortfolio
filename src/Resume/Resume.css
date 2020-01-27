@@ -1,6 +1,8 @@
 .resume-color {
     background-color: rgb(15, 76, 129);
     padding-bottom: 100px;
+    /* margin: -10px; */
+   
 }
 
 
@@ -223,7 +225,7 @@
     @media all and (max-width: 601px) {
       #cv {
         width: 95%;
-        margin: 10px auto;
+        margin: auto;
         min-width: 280px;
       }
       
@@ -234,7 +236,7 @@
       #name, #contactDetails {
         float: none;
         width: 100%;
-        text-align: center;
+        text-align: left;
       }
       
       .sectionTitle, .sectionContent {
@@ -243,8 +245,9 @@
       }
       
       .sectionTitle {
-        margin-left: -2px;
+        /* margin-left: -2px; */
         font-size: 1.25em;
+        
       }
       
       .keySkills {

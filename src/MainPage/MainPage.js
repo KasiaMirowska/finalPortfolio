@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainPage.css';
 
+
 export default function MainPage(props) {
     return (
         <div>
@@ -15,6 +16,7 @@ export default function MainPage(props) {
                     Portfolio
                 </h1>
             </div>
+           
             <div className='about'>
                 <h1>Full Stack Developer and Artist</h1>
                 <br />
@@ -51,6 +53,7 @@ export default function MainPage(props) {
                 </div>
 
             </div>
+           
         </div>
     )
 }

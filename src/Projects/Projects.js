@@ -26,7 +26,7 @@ export default function Projects(props) {
             <h1 className='projects-header'>
                 Projects:
                 </h1>
-                <ul>
+                <ul className='projects-list'>
                     {projectsList}
                 </ul>
         </div>

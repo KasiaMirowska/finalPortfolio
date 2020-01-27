@@ -3,9 +3,10 @@ import './App.css';
 import { Route } from 'react-router-dom';
 import Nav from './Nav/Nav';
 import MainPage from './MainPage/MainPage';
-import Contact from './Contact/Contact';
+import Contact from './Footer/Footer';
 import Resume from './Resume/Resume';
 import Projects from './Projects/Projects';
+import Footer from './Footer/Footer';
 import './App.css';
 
 export default class App extends React.Component {
@@ -21,9 +22,11 @@ export default class App extends React.Component {
         </header>
         <main>
           <Route exact path='/' component={MainPage} />
+          <Route exact path='/' component={Projects} />
+          <Route exact path='/' component={Footer} />
           <Route exact path='/Resume' component={Resume} />
           <Route exact path='/Projects' component={Projects} />
-          
+
         </main>
 
       </div>

@@ -5,7 +5,7 @@ import './Resume.css';
 export default function Resume(props) {
     return (
         <div className='resume-color'>
-        <main className='resume' id="top">
+        <main className='resume' >
             <div id="cv" className="instaFade">
                 <div className="mainDetails">
                     <div id="headshot" className="quickFade">
@@ -44,21 +44,21 @@ export default function Resume(props) {
                         </div>
                         <div className="sectionContentSkills">
                             <ul className="keySkills">
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;JavaScript ES6</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;React</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;NodeJS</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;Express</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;HTML5</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;CSS3</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;jQuery</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;Git + Github</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;SQL</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;PostgreSQL</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;Jest, Enzyme, Mocha</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;NPM</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;Heroku, Zeit</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;Photoshop</li>
-                                <li><i class="fas fa-circle fa-sm"></i> &nbsp;Ilustrator</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;JavaScript ES6</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;React</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;NodeJS</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Express</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;HTML5</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;CSS3</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;jQuery</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Git + Github</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;SQL</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;PostgreSQL</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Jest, Enzyme, Mocha</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;NPM</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Heroku, Zeit</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Photoshop</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Ilustrator</li>
                             </ul>
                         </div>
                         <div className="clear"></div>

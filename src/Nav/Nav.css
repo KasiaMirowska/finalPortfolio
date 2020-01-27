@@ -1,4 +1,12 @@
 .nav {
     font-family: 'Lexend Giga', sans-serif;
     color: white;
+    
+}
+
+@media (min-width: 600px){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
 }

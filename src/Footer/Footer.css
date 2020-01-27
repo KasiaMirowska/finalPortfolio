@@ -1,0 +1,18 @@
+.footer{
+  text-align: center;
+
+}
+.mail-link, .phone-icon, .linkedin-link{
+    margin: 10px;
+}
+.phone-icon {
+    background-color: transparent;
+    border: none;
+    color: rgb(205, 217, 233);
+    padding: 0;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .linkedin-link {
+      /* padding: 5px; */
+  }
