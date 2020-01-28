@@ -1,16 +1,17 @@
 .projects {
+   
     /* background-color: rgb(242, 107, 91); */
 }
 
 
 .projects-header {
-    font-family: 'Play', sans-serif; 
+    /* font-family: 'Play', sans-serif;  */
     text-align: center;
-    color: white;
-   
+    color: rgb(95, 215, 236);
+    background-color: rgb(94, 53, 160);
+    padding: 20px;
 }
 .projects-list {
-    max-width: 80%;
     margin: auto;
     padding: 0
 }
@@ -18,8 +19,6 @@
 
 @media (min-width: 600px) {
     .projects {
-        padding: 5em;
-        /* width: 80%;
-        margin: auto; */
+       
     } 
 }

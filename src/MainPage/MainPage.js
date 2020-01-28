@@ -21,7 +21,7 @@ export default function MainPage(props) {
                 <h1>Full Stack Developer and Artist</h1>
                 <br />
                 <h1>
-                    Dreams about building for humanity... apps that matter
+                    Brings Color to the Tech and Dreams of building for humanity... apps that matter
                 </h1>
                 <br />
                 <p className='aboutP'>

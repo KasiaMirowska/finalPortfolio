@@ -7,8 +7,9 @@ import ProjectItem from '../ProjectItem/ProjectItem';
 export default function Projects(props) {
     const projectsList = projects.map((project, key) => {
         return (
-            <li key={key} className={project.name}>
+            <div key={key} className={project.className}>
                 <ProjectItem
+                    key={key}
                     id={project.id}
                     name={project.name}
                     description={project.description}
@@ -18,13 +19,13 @@ export default function Projects(props) {
                     githubLinkServer={project.githubLinkServer}
                     techList={project.techList}
                 />
-            </li>
+            </div>
         )
     })
     return (
-        <div className='projects'>
+        <div className='projects' >
             <h1 className='projects-header'>
-                Projects:
+                P r o j e c t s :
                 </h1>
                 <ul className='projects-list'>
                     {projectsList}

@@ -2,9 +2,10 @@ main {
     font-family: 'Lexend Giga', sans-serif;
 }
 header {
-        background-color:  rgb(15, 76, 129);
-         margin: 0;
-        padding: 10px;   
+    background-color:  rgb(3, 62, 114);
+    background-color:  rgb(2, 29, 87);
+    margin: 0;
+    padding: 10px;   
 }
 
 a {
@@ -16,20 +17,22 @@ a {
 h1,h2,h3,ul,li,section {
     margin: 0;
 }
- 
+ul {
+    list-style-type: none;
+}
 
-img {
+/* img {
     max-width: 300px;
     display:block;
     margin: auto;
- }
+ } */
 
 
 @media (min-width: 600px){
-    img {
+    /* img {
         max-width: 600px;
         display:block;
         margin: auto;
-     }
+     } */
 }
 

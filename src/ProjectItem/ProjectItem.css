@@ -1,0 +1,36 @@
+.slider {
+    border: 1px solid grey;
+    width:700px;
+    height: 500px;
+    margin: auto;
+}
+.yoga-track {
+    background-color: rgb(151, 204, 4);
+    color: rgb(53, 21, 21);
+    /* background-color: rgb(109, 231, 225); */
+}
+.noteful {
+    background-color: rgb(3, 119, 243); 
+}
+.bookmarks {
+   
+    background-color: rgb(137, 4, 199);
+    
+    
+}
+.calculator {
+    background-color:rgb(117, 235, 201);
+    background-color:rgb(242, 107, 91);
+    background-color: rgb(109, 231, 225);
+}
+.project-li {
+    padding: 5%;
+}
+
+
+@media (min-width: 600px) {
+    .project-li {
+        width: 50%;
+        margin: auto;
+    }
+}
