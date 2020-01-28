@@ -8,7 +8,7 @@
         projectLink: 'https://yoga-capstone-fzi2p9v6x.now.sh/landing',
         githubLinkClient: 'https://github.com/KasiaMirowska/yoga-app',
         githubLinkServer: 'https://github.com/KasiaMirowska/yoga-api',
-        techList: ['JavaScript', 'Node', 'React', 'React-Context', 'Express', 'Postgres', 'SQL', 'HTML5', 'CSS3', 'JWT Authentication', 'Jest', 'Mocha', 'Chai', 'Enzyme', 'Zeit', 'Heroku', 'AWS'],
+        techList: ['JavaScript, ', 'Node, ', 'React, ', 'React-Context, ', 'Express, ', 'Postgres, ', 'SQL, ', 'HTML5, ', 'CSS3, ', 'JWT Authentication, ', 'Jest, ', 'Mocha, ', 'Chai, ', 'Enzyme, ', 'Zeit, ', 'Heroku, ', 'AWS'],
     },
     {
         id: 2,
@@ -19,7 +19,7 @@
         projectLink: 'https://noteful-app-client-bms8il0pd.now.sh/',
         githubLinkClient: 'https://github.com/KasiaMirowska/Noteful-Context-refactored',
         githubLinkServer: 'https://github.com/KasiaMirowska/notefulSERVER',
-        techList: ['JavaScript', 'Node', 'React', 'React-Context', 'Express', 'Postgres', 'SQL', 'HTML5', 'CSS3', 'Jest', 'Mocha', 'Chai', 'Enzyme', 'Zeit', 'Heroku'],  
+        techList:['JavaScript, ', 'Node, ', 'React, ', 'React-Context, ', 'Express, ', 'Postgres, ', 'SQL, ', 'HTML5, ', 'CSS3, ', 'Jest, ', 'Mocha, ', 'Chai, ', 'Enzyme, ', 'Zeit, ', 'Heroku '], 
     },
     {
         id: 3,
@@ -30,7 +30,7 @@
         projectLink: 'https://kasiamirowska.github.io/bookmarkProject-KasiaMirowska/',
         githubLinkClient: 'https://github.com/KasiaMirowska/bookmarkProject-KasiaMirowska',
         githubLinkServer: '',
-        techList: ['JavaScript', 'jQuery', 'HTML5', 'CSS3', 'GithubPages'],  
+        techList: ['JavaScript, ', 'jQuery, ', 'HTML5, ', 'CSS3, ', 'GithubPages, '],  
     },
     {
         id: 4,
@@ -41,7 +41,7 @@
         projectLink: ' https://kasiamirowska.github.io/waitstaff-calculator/.',
         githubLinkClient: 'https://github.com/KasiaMirowska/waitstaff-calculator',
         githubLinkServer: '',
-        techList: ['JavaScript', 'jQuery', 'HTML5', 'CSS3', 'GithubPages'], 
+        techList: ['JavaScript, ', 'jQuery, ', 'HTML5, ', 'CSS3, ', 'GithubPages, '], 
     }
 ]
 export default projects;

@@ -23,9 +23,14 @@ export default class Footer extends React.Component {
     return (
       <footer className="footer" id='contact'>
         <div className='scroll-to-top'>
-          <a className='w3-animate-fading' onClick={this.scrollToTop}>
+          <a className='arrow' className='w3-animate-fading' onClick={this.scrollToTop}>
               <i className="fas fa-chevron-circle-up arrow fa-3x"></i>
           </a>
+        </div>
+        <div className='footer-text'>
+        <h4>Thank you for taking the time to visit! 
+          <br />
+          Find me at: </h4>
         </div>
        
         <div className='footer-icons'>
