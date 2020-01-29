@@ -18,7 +18,7 @@ export default class ProjectItem extends React.Component {
     goToPrevImg = () => {
         this.setState(prevState => ({
             currentIndex: prevState.currentIndex - 1,
-            translateValue: prevState.translateValue - +(this.slideWidth())
+            translateValue: prevState.translateValue + (this.slideWidth())
         }));
     }
 
@@ -63,10 +63,9 @@ export default class ProjectItem extends React.Component {
                         transition: 'transform ease-out 0.45s'
                     }}>
                         {images}
-
+                    </div>
                         <RightArrow forward={this.goToNextImg} />
                         <LeftArrow back={this.goToPrevImg} />
-                    </div>
                 </div>
 
                 <div className='project-info'>
@@ -77,9 +76,10 @@ export default class ProjectItem extends React.Component {
                         </ul>
                     </div>
                     <div className='buttons'>
-                        <button><a href={`${this.props.projectLink}`} >DEMO</a></button>
-                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkClient}`}>client-side code</a></button> : <button><a href={`${this.props.githubLinkClient}`}>Github code</a></button>}
-                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkServer}`}>server-side code</a></button> : null}
+                        <button><a href={`${this.props.projectLink}`} target="_blank" >DEMO</a></button>
+                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkClient}`} target="_blank" >client-side code</a></button> : <button><a href={`${this.props.githubLinkClient}`} target="_blank" >Github code</a></button>}
+                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkClient}`} target="_blank" >client-side code</a></button> : <button><a href={`${this.props.githubLinkClient}`} target="_blank" >Github code</a></button>}
+                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkServer}`} target="_blank" >server-side code</a></button> : null}
                     </div>
                 </div>
             </li>
