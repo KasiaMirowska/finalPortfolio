@@ -44,4 +44,6 @@
         techList: ['• JavaScript ', '• jQuery ', '• HTML5 ', '• CSS3 ', '• GithubPages '], 
     }
 ]
+
+
 export default projects;

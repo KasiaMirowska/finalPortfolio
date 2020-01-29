@@ -37,7 +37,7 @@ ul {
  }
 img {
     max-width: 300px;
-    display: inline-block;
+    display: block;
     margin: auto;
  }
 
@@ -46,7 +46,7 @@ img {
     img {
         /* max-width: 600px;
         max-height:400px; */
-        display: inline-block;
+        display: block;
         margin: auto;
      }
 }
