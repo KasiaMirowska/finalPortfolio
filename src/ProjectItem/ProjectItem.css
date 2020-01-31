@@ -1,7 +1,7 @@
 .slider {
     /* border: 1px solid grey; */
-    width: 45vh; 
-    height:45vh;
+    width: 90%; 
+    height: 40vh;
     margin: auto;
     overflow: hidden;
     white-space: nowrap;
@@ -49,14 +49,10 @@
      display: inline;
  }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .project-li {
         width: 50%;
         margin: auto;
-    }
-    .slider {
-    height: 80vh;
-    width:  120vh;
     }
     .project-info {
         margin:auto;

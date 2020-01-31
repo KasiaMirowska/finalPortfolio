@@ -5,7 +5,7 @@ const Slide = (img) => {
   console.log(img)
   const styles = {
     backgroundImage: `url(${img.img})`,
-    backgroundSize: 'cover',
+    backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 60%',
     minHeight: '100%',

@@ -8,7 +8,8 @@ export default function Resume(props) {
             <div id="cv" className="instaFade">
                 <div className="mainDetails">
                     <div id="headshot" className="quickFade">
-                        <img src={`https://images-for-portfolio.s3.us-east-2.amazonaws.com/other+screens/KasiaMirowska.jpg`} alt="Kasia Mirowska" />
+                        <img src={`https://images-for-portfolio.s3.us-east-2.amazonaws.com/KasiaMirowska.jpg`} alt="Kasia Mirowska" />
+                        
                     </div>
                     <div id="name">
                         <h1 className="quickFade delayTwo resume-h1 ">Kasia Mirowska</h1>
