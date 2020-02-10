@@ -76,9 +76,9 @@ export default class ProjectItem extends React.Component {
                         </ul>
                     </div>
                     <div className='buttons'>
-                        <button><a href={`${this.props.projectLink}`} target="_blank" rel="noopener noreferrer"  >DEMO</a></button>
-                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkClient}`} target="_blank" rel="noopener noreferrer"  >client-side code</a></button> : <button><a href={`${this.props.githubLinkClient}`}target="_blank" rel="noopener noreferrer"  >Github code</a></button>}
-                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkServer}`} target="_blank" rel="noopener noreferrer" >server-side code</a></button> : null}
+                        <button><a href={`${this.props.projectLink}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link" >DEMO</a></button>
+                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkClient}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link" >client-side code</a></button> : <button><a href={`${this.props.githubLinkClient}`}target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link"  >Github code</a></button>}
+                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkServer}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link">server-side code</a></button> : null}
                     </div>
                 </div>
             </li>

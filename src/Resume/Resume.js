@@ -68,10 +68,10 @@ export default function Resume(props) {
                             <h1 className='resume-h1'>Recent Projects</h1>
                         </div>
                         <article className='resume-projects'>
-                            <p className='resume-p'><strong><a href="yogi-track.now.sh">Yoga-Track</a></strong>&nbsp;- (Web App) - A Full-Stack mobile first responsive designed app for yoga teachers and enthusiasts, helping a user to explore and learn a variety of poses, providing an english and sanskrit name, photo and video.  Users can create an accounts where he/she can save poses into yoga-flows as inspirations for a class or personal practice with notes and attributes.</p>
+                            <p className='resume-p'><strong><a href="https://yoga-capstone.now.sh/landing" target="_blank" rel='noopener noreferrer' activeClassName="link-active" className="link" >Yogi-Track</a></strong>&nbsp;- (Web App) - A Full-Stack mobile first responsive designed app for yoga teachers and enthusiasts, helping a user to explore and learn a variety of poses, providing an english and sanskrit name, photo and video.  Users can create an accounts where he/she can save poses into yoga-flows as inspirations for a class or personal practice with notes and attributes.</p>
                         </article>
                         <article className='resume-projects'>
-                            <p className='resume-p, p'><strong><a href="noteful-app-client.now.sh">Noteful</a></strong>- (Web App)- A CRUD app that allows users to keep an online notebook. Using Rest Programming techniques this app was built with a PostgreSQL db, Node and Express server and a React Client.  </p>
+                            <p className='resume-p, p'><strong><a href='https://noteful-app-client-bms8il0pd.now.sh/' target="_blank" rel='noopener noreferrer' activeClassName="link-active" className="link" >Noteful</a></strong>&nbsp;- (Web App)- A CRUD app that allows users to keep an online notebook. Using Rest Programming techniques this app was built with a PostgreSQL db, Node and Express server and a React Client.  </p>
                         </article>
                         <div className="clear"></div>
                     </section>

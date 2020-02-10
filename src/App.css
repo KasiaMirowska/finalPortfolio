@@ -40,7 +40,21 @@ img {
     display: block;
     margin: auto;
  }
-
+ .link{
+    text-decoration: none;
+    color: rgb(205, 217, 233);
+ }
+  .link:hover  {
+    transform: translateY(-2px);
+    color: rgb(251, 157, 149);
+    cursor: pointer;
+  }
+  .link-active{
+    color: rgb(6, 131, 248);
+    border-bottom: 3px solid rgb(6, 131, 248);
+    transition: border-bottom .5s ease-in-out;
+    background-color:grey
+  }
 
 @media (min-width: 600px){
     img {

@@ -24,6 +24,8 @@ export default class App extends React.Component {
           <Route exact path='/' component={MainPage} />
           <Route exact path='/' component={Projects} />
           <Route exact path='/' component={Footer} />
+          <Route exact path='/About' component={MainPage} />
+          <Route exact path='/About' component={Footer} />
           <Route exact path='/Resume' component={Resume} />
           <Route exact path='/Projects' component={Projects} />
           <Route exact path='/Projects' component={Footer} />

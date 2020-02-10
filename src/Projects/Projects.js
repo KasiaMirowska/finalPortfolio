@@ -25,7 +25,7 @@ export default function Projects(props) {
     return (
         <div className='projects' >
             <h1 className='projects-header'>
-                P r o j e c t s :
+                P r o j e c t s
                 </h1>
                 <ul className='projects-list'>
                     {projectsList}

@@ -73,7 +73,7 @@
     }
     .aboutP {
         text-align: left;
-        padding-left: 40%;
+        padding-left: 50%;
         font-size: 0.7em;
     }
     .love {
@@ -85,5 +85,8 @@
     }
     .sql {
         padding-left: 5em;
+    }
+    .life {
+        padding-left: 10em;
     }
 }

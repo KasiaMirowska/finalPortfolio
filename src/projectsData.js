@@ -1,11 +1,11 @@
  const projects = [
     {
         id: 1,
-        name: 'Yoga Track',
-        className: 'yoga-track',
+        name: 'Yogi Track',
+        className: 'yogi-track',
         description: ` A Full-Stack mobile first responsive web application for yoga teachers and enthusiasts helping a user to explore and learn avariety of poses, providing an english and sanskrit name for each pose with alphabetic sort based on either. The user can then create an account where he/she can save poses into yoga-flows as inspirations for a class or record of personal practice with notes and personal rating system.`,
         images: ['https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/home.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/login.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/flow-pick.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/flow-pose.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/flow-pose2.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/poses.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/pose-card.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/yoga+cap/pose-card2.png'],
-        projectLink: 'https://yoga-capstone-fzi2p9v6x.now.sh/landing',
+        projectLink: 'https://yoga-capstone.now.sh/landing',
         githubLinkClient: 'https://github.com/KasiaMirowska/yoga-app',
         githubLinkServer: 'https://github.com/KasiaMirowska/yoga-api',
         techList: ['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku '],
