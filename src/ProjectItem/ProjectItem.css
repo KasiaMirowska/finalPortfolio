@@ -31,7 +31,11 @@
     z-index: +1;
     color: rgb(3, 62, 114);
 }
-
+.green-thumbs {
+    background-color: rgb(177, 80, 0);
+    color: white;
+    padding-bottom: 50px;
+}
 .yogi-track {
     background-color: rgb(151, 204, 4);
     color: rgb(53, 21, 21);

@@ -1,6 +1,17 @@
  const projects = [
-    {
+     {
         id: 1,
+        name: 'Green-thumbs-up',
+        className: 'green-thumbs',
+        description: ` A Full-Stack mobile first responsive web application designed to influance change in restaurant business. It allows a user to research local restaurants and create a enviroment oriented review. Once reviewed a restaurant becomes part of a new database of Earth friendly places that adhere to enviromnet conscientious practices.`,
+        images: ['https://green-images.s3.amazonaws.com/portfolio+screens/home.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/login.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/home2.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/sort.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/afterSort.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/yelpSearch.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/yelpPlaces.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/review.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/review2.png'],
+        projectLink: 'https://green-thumbs-up.now.sh/',
+        githubLinkClient: 'https://github.com/KasiaMirowska/greenThumbs-app',
+        githubLinkServer: 'https://github.com/KasiaMirowska/greenThumbs-api',
+        techList: ['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku '],
+     },
+    {
+        id: 2,
         name: 'Yogi Track',
         className: 'yogi-track',
         description: ` A Full-Stack mobile first responsive web application for yoga teachers and enthusiasts helping a user to explore and learn avariety of poses, providing an english and sanskrit name for each pose with alphabetic sort based on either. The user can then create an account where he/she can save poses into yoga-flows as inspirations for a class or record of personal practice with notes and personal rating system.`,
@@ -8,10 +19,10 @@
         projectLink: 'https://yoga-capstone.now.sh/landing',
         githubLinkClient: 'https://github.com/KasiaMirowska/yoga-app',
         githubLinkServer: 'https://github.com/KasiaMirowska/yoga-api',
-        techList: ['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku '],
+        techList: ['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku ', '• AWS'],
     },
     {
-        id: 2,
+        id: 3,
         name: 'Noteful',
         className:'noteful',
         description: `A Full-Stack mobile first responsive web application designed to keep track of to-do lists and memos `,
@@ -22,7 +33,7 @@
         techList:['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku '], 
     },
     {
-        id: 3,
+        id: 4,
         name: 'Bookmarks-app',
         className:'bookmarks',
         description: `A simple application created for saving internet bookmarks`,
@@ -33,7 +44,7 @@
         techList: ['• JavaScript ', '• jQuery ', '• HTML5 ', '• CSS3 ', '• GithubPages' ],  
     },
     {
-        id: 4,
+        id: 5,
         name: 'Waitstaff Calculator',
         className:'calculator',
         description: `An early project calculating tips and taxes for waitstaff`,
