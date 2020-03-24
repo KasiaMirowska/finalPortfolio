@@ -68,6 +68,9 @@ export default function Resume(props) {
                             <h1 className='resume-h1'>Recent Projects</h1>
                         </div>
                         <article className='resume-projects'>
+                            <p className='resume-p'><strong><a href="https://green-thumbs-up.now.sh/" target="_blank" rel='noopener noreferrer' activeClassName="link-active" className="link" >GREENthumbsUP</a></strong>&nbsp;- (Web App) - A Full-Stack mobile first responsive web application designed to influance change in restaurant business. It allows a user to research local restaurants and create a enviroment oriented review. Once reviewed a restaurant becomes part of a new database of Earth friendly places that adhere to enviromnet conscientious practices.</p>
+                        </article>
+                        <article className='resume-projects'>
                             <p className='resume-p'><strong><a href="https://yoga-capstone.now.sh/landing" target="_blank" rel='noopener noreferrer' activeClassName="link-active" className="link" >Yogi-Track</a></strong>&nbsp;- (Web App) - A Full-Stack mobile first responsive designed app for yoga teachers and enthusiasts, helping a user to explore and learn a variety of poses, providing an english and sanskrit name, photo and video.  Users can create an accounts where he/she can save poses into yoga-flows as inspirations for a class or personal practice with notes and attributes.</p>
                         </article>
                         <article className='resume-projects'>
