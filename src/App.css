@@ -22,7 +22,7 @@ ul {
     list-style-type: none; 
 }
  button {
-    font-family: 'Orbitron', sans-serif; 
+     font-family: 'Orbitron', sans-serif; 
      font-size: 15px;
      color: rgb(250, 235, 214);
      text-decoration: none;
@@ -32,9 +32,27 @@ ul {
      border-radius: 10px;
      margin: 10px;
      border: none;
-     /* display: inline; */
      
  }
+.link2 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 15px;
+    color: rgb(250, 235, 214);
+    text-decoration: none;
+    padding: 5px; 
+    cursor: pointer;
+    background-color: rgb(3, 62, 114);
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+}
+
 img {
     max-width: 300px;
     display: block;
@@ -43,6 +61,7 @@ img {
  .link{
     text-decoration: none;
     color: rgb(205, 217, 233);
+    vertical-align: middle;
  }
   .link:hover  {
     transform: translateY(-2px);

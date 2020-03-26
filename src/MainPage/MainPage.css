@@ -52,6 +52,7 @@
     padding: 1.5em;
 }
 
+
 @media (min-width: 600px) {
     .hello{
         padding-bottom: 200px;

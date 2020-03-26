@@ -53,7 +53,7 @@ export default class ProjectItem extends React.Component {
         })
 
         return (
-            <li className='project-li'>
+            <div className='project-li'>
                 <h2 className='project-header'>{this.props.name}</h2>
                 <div className='text'><p>{this.props.description}</p></div>
 
@@ -65,7 +65,7 @@ export default class ProjectItem extends React.Component {
                         {images}
                     </div>
                         <RightArrow forward={this.goToNextImg} />
-                        <LeftArrow back={this.goToPrevImg} />
+                        {this.state.currentIndex===0 ? null : <LeftArrow back={this.goToPrevImg} />}
                 </div>
 
                 <div className='project-info'>
@@ -76,12 +76,12 @@ export default class ProjectItem extends React.Component {
                         </ul>
                     </div>
                     <div className='buttons'>
-                        <button><a href={`${this.props.projectLink}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link" >DEMO</a></button>
-                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkClient}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link" >client-side code</a></button> : <button><a href={`${this.props.githubLinkClient}`}target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link"  >Github code</a></button>}
-                        {(this.props.githubLinkServer !== '') ? <button><a href={`${this.props.githubLinkServer}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link">server-side code</a></button> : null}
+                        <a className='project-buttons' href={`${this.props.projectLink}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link2" >DEMO</a>
+                        {(this.props.githubLinkServer !== '') ? <a className='project-buttons' href={`${this.props.githubLinkClient}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link2" >client side code</a> : <a  className='project-buttons' href={`${this.props.githubLinkClient}`}target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link2"  >Github code</a>}
+                        {(this.props.githubLinkServer !== '') ? <a className='project-buttons' href={`${this.props.githubLinkServer}`} target="_blank" rel="noopener noreferrer" activeClassName="link-active" className="link2">server-side code</a> : null}
                     </div>
                 </div>
-            </li>
+            </div>
         )
     }
 
