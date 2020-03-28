@@ -34,10 +34,10 @@ export default class Footer extends React.Component {
         </div>
        
         <div className='footer-icons'>
-          <a href='mailto:amirokasia@gmail.com' className='mail-link link' activeClassName="link-active" target="_blank" ><i className="fas fa-envelope fa-4x icon"></i></a>
-          <button className='phone-icon link' activeClassName="link-active" onClick={this.togglePopup.bind(this)}><i className="fas fa-phone fa-4x icon phone-icon-fa"></i></button>
-          <a href='https://github.com/KasiaMirowska' className='github-link link' activeClassName="link-active" target="_blank" rel='noopener noreferrer'><i className="fab fa-github fa-4x icon"></i></a>
-          <a href='https://www.linkedin.com/in/KasiaMirowska/' className='linkedin-link link' activeClassName="link-active" target="_blank" rel='noopener noreferrer'><i className="fab fa-linkedin-in fa-4x icon"></i></a>
+          <a href='mailto:amirokasia@gmail.com' className='mail-link link' activeClass ="link-active" target="_blank" ><i className="fas fa-envelope fa-4x icon"></i></a>
+          <button className='phone-icon link' activeClass ="link-active" onClick={this.togglePopup.bind(this)}><i className="fas fa-phone fa-4x icon phone-icon-fa"></i></button>
+          <a href='https://github.com/KasiaMirowska' className='github-link link' activeClass ="link-active" target="_blank" rel='noopener noreferrer'><i className="fab fa-github fa-4x icon"></i></a>
+          <a href='https://www.linkedin.com/in/KasiaMirowska/' className='linkedin-link link' activeClass ="link-active" target="_blank" rel='noopener noreferrer'><i className="fab fa-linkedin-in fa-4x icon"></i></a>
         </div>
         {this.state.showPopup ? 
           <Phone

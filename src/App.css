@@ -61,7 +61,7 @@ img {
  .link{
     text-decoration: none;
     color: rgb(205, 217, 233);
-    vertical-align: middle;
+    vertical-align: vertical;
  }
   .link:hover  {
     transform: translateY(-2px);
