@@ -1,0 +1,32 @@
+.hello {
+    background-image:url('https://images-for-portfolio.s3.us-east-2.amazonaws.com/20191211_130739.jpg');
+    background-image: url('https://images-for-portfolio.s3.us-east-2.amazonaws.com/20191211_130438.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.s {
+    font-size: 0.5em;
+}
+.hello-text {
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-shadow: 0 0 0.2em rgb(7, 35, 66);
+    margin: auto;
+    padding: 30px;
+    
+}
+.myName {
+    font-family: 'Play', sans-serif; 
+    font-size: 1.5em; 
+}
+
+@media(min-width: 600px) {
+    .hello-text {
+        font-size: 2em;
+    }
+    .myName {
+        font-size: 1.5em; 
+    }
+}

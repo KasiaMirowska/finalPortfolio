@@ -3,10 +3,10 @@ import './App.css';
 import { Route } from 'react-router-dom';
 import Nav from './Nav/Nav';
 import MainPage from './MainPage/MainPage';
-import Contact from './Footer/Footer';
 import Resume from './Resume/Resume';
 import Projects from './Projects/Projects';
 import Footer from './Footer/Footer';
+import Header from './Header/Header';
 import './App.css';
 
 export default class App extends React.Component {
@@ -17,7 +17,7 @@ export default class App extends React.Component {
       <div className="App">
         <header>
           <Route path='/' component={Nav} />
-
+          <Route path='/' component={Header} />
 
         </header>
         <main>

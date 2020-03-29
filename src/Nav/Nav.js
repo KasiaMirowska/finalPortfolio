@@ -19,7 +19,6 @@ export default class Nav extends React.Component {
     
 
     render() {
-        console.log(this.props)
         return (
             <div className='nav'>
                 <div className='links'>
@@ -36,11 +35,11 @@ export default class Nav extends React.Component {
                     </Link>
                 </div>
                 <div className='icons'>
-                    <section className='footer-icons'>
-                        <a href='mailto:amirokasia@gmail.com' className="link-active" className="link mail-link"><i className="fas fa-envelope fa-1x icon" ></i></a>
-                        <button className="link-active" className='link phone-icon' onClick={this.togglePopup.bind(this)}><i className="fas fa-phone fa-1x icon phone-icon-fa"></i></button>
-                        <a href='https://github.com/KasiaMirowska' className="link-active" className='link github-link' target="_blank" rel='noopener noreferrer'><i className="fab fa-github fa-1x icon"></i></a>
-                        <a href='https://www.linkedin.com/in/KasiaMirowska/' className="link-active" className='link linkedin-link' target="_blank" rel='noopener noreferrer'><i className="fab fa-linkedin-in fa-1x icon"></i></a>
+                    <section className='nav-icons'>
+                        <a href='mailto:amirokasia@gmail.com' className="link-active" className="link" target="_blank" rel='noopener noreferrer' >Email</a>
+                        <button  id='button2' className="link-active" className='link phone-icon' onClick={this.togglePopup.bind(this)}>Phone</button>
+                        <a href='https://github.com/KasiaMirowska' className="link-active" className='link' target="_blank" rel='noopener noreferrer'>Github</a>
+                        <a href='https://www.linkedin.com/in/KasiaMirowska/' className="link-active" className='link' target="_blank" rel='noopener noreferrer'>In</a>
                     </section>
                     {this.state.showPopup ?
                         <Phone

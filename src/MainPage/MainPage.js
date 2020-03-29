@@ -5,17 +5,7 @@ import './MainPage.css';
 export default function MainPage(props) {
     return (
         <div>
-            <div className='hello'>
-                <div className='hello-text'>
-                    Hello!
-                    <br />
-                    You've just found
-                <div className='myName'>
-                        Kasia Mirowska<span className='s'>'s</span>
-                    </div>
-                    Portfolio
-                </div>
-            </div>
+          
 
             <div className='about' id='about'>
                 <h1>Full Stack Developer and Artist</h1>
