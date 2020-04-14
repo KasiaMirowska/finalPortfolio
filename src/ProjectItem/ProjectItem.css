@@ -31,6 +31,11 @@
     z-index: +1;
     color: rgb(3, 62, 114);
 }
+.crown-clothing {
+    background-color: rgb(31, 16, 47);
+    color: white;
+    padding-bottom: 50px; 
+}
 .green-thumbs {
     background-color: rgb(228, 92, 38);
     color: white;

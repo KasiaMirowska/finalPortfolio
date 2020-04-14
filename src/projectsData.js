@@ -1,7 +1,18 @@
  const projects = [
-     {
+    {
         id: 1,
-        name: 'Green-thumbs-up',
+        name: 'Crown Clothing',
+        className: 'crown-clothing',
+        description: ` An e-commerce web application featuring full online clothing store with google sign-in and payment processing. Currently still in 'work-in-progress' state. Upcoming features: Graphql with Apollo, React Hooks and mobile responsive design`,
+        images: ['https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/home.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/signin.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/shop.png).png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/collection.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/collection-cart.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/checkout.png'],
+        projectLink: 'https://kasia-crown-commerce.herokuapp.com/',
+        githubLinkClient: 'https://github.com/KasiaMirowska/eCommerce',
+        githubLinkServer: '',
+        techList: ['• JavaScript ', '• React ', '• React-Redux ', '• Firebase', '• Stripe ', '• NoSQL ', '• HTML5 ', '• CSS3 ', '• Sass ', '• Flexbox ', '• Heroku '],
+     },
+     {
+        id: 2,
+        name: 'GREENthumbsUP',
         className: 'green-thumbs',
         description: ` A Full-Stack mobile first responsive web application designed to influance change in restaurant business. It allows a user to research local restaurants and create a enviroment oriented review. Once reviewed a restaurant becomes part of a new database of Earth friendly places that adhere to enviromnet conscientious practices.`,
         images: ['https://green-images.s3.amazonaws.com/portfolio+screens/home.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/login.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/home2.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/sort.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/afterSort.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/yelpSearch.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/yelpPlaces.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/review.png', 'https://green-images.s3.amazonaws.com/portfolio+screens/review2.png'],
@@ -11,7 +22,7 @@
         techList: ['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku '],
      },
     {
-        id: 2,
+        id: 3,
         name: 'Yogi Track',
         className: 'yogi-track',
         description: ` A Full-Stack mobile first responsive web application for yoga teachers and enthusiasts helping a user to explore and learn avariety of poses, providing an english and sanskrit name for each pose with alphabetic sort based on either. The user can then create an account where he/she can save poses into yoga-flows as inspirations for a class or record of personal practice with notes and personal rating system.`,
@@ -22,7 +33,7 @@
         techList: ['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku ', '• AWS'],
     },
     {
-        id: 3,
+        id: 4,
         name: 'Noteful',
         className:'noteful',
         description: `A Full-Stack mobile first responsive web application designed to keep track of to-do lists and memos `,
@@ -33,7 +44,7 @@
         techList:['• JavaScript ', '• Node ', '• React ', '• React-Context ', '• Express ', '• Postgres ', '• SQL ', '• HTML5 ', '• CSS3 ', '• Jest ', '• Mocha ', '• Chai ', '• Enzyme ', '• Zeit ', '• Heroku '], 
     },
     {
-        id: 4,
+        id: 5,
         name: 'Bookmarks-app',
         className:'bookmarks',
         description: `A simple application created for saving internet bookmarks`,
@@ -44,7 +55,7 @@
         techList: ['• JavaScript ', '• jQuery ', '• HTML5 ', '• CSS3 ', '• GithubPages' ],  
     },
     {
-        id: 5,
+        id: 6,
         name: 'Waitstaff Calculator',
         className:'calculator',
         description: `An early project calculating tips and taxes for waitstaff`,
