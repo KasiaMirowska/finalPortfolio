@@ -4,7 +4,7 @@
         name: 'Crown Clothing',
         className: 'crown-clothing',
         description: ` An e-commerce web application featuring full online clothing store with google sign-in and payment processing. Currently still in 'work-in-progress' state. Upcoming features: Graphql with Apollo, React Hooks and mobile responsive design`,
-        images: ['https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/home.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/signin.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/shop.png).png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/collection.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/collection-cart.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/checkout.png'],
+        images: ['https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/home.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/signin.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/collection.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/collection-cart.png', 'https://images-for-portfolio.s3.us-east-2.amazonaws.com/e-commerce/checkout.png'],
         projectLink: 'https://kasia-crown-commerce.herokuapp.com/',
         githubLinkClient: 'https://github.com/KasiaMirowska/eCommerce',
         githubLinkServer: '',

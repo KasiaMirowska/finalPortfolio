@@ -17,7 +17,7 @@ export default class App extends React.Component {
       <div className="App">
         <header>
           <Route path='/' component={Nav} />
-          <Route path='/' component={Header} />
+          <Route exact path='/' component={Header} />
 
         </header>
         <main>
