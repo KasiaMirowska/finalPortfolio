@@ -46,8 +46,11 @@ export default function Resume(props) {
                             <ul className="keySkills">
                                 <li><i className="fas fa-circle fa-sm"></i> &nbsp;JavaScript ES6</li>
                                 <li><i className="fas fa-circle fa-sm"></i> &nbsp;React</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Redux Thunk&Saga</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;React Context</li>
                                 <li><i className="fas fa-circle fa-sm"></i> &nbsp;NodeJS</li>
                                 <li><i className="fas fa-circle fa-sm"></i> &nbsp;Express</li>
+                                <li><i className="fas fa-circle fa-sm"></i> &nbsp;Firebase</li>
                                 <li><i className="fas fa-circle fa-sm"></i> &nbsp;HTML5</li>
                                 <li><i className="fas fa-circle fa-sm"></i> &nbsp;CSS3</li>
                                 <li><i className="fas fa-circle fa-sm"></i> &nbsp;jQuery</li>
@@ -68,13 +71,16 @@ export default function Resume(props) {
                             <h1 className='resume-h1'>Recent Projects</h1>
                         </div>
                         <article className='resume-projects'>
-                            <p className='resume-p'><strong><a href="https://green-thumbs-up.now.sh/" target="_blank" rel='noopener noreferrer' className="link-active" className="link" >GREENthumbsUP</a></strong>&nbsp;- (Web App) - A Full-Stack mobile first responsive web application designed to influance change in restaurant business. It allows a user to research local restaurants and create a enviroment oriented review. Once reviewed a restaurant becomes part of a new database of Earth friendly places that adhere to enviromnet conscientious practices.</p>
+                            <p className='resume-p'><strong><a href="https://othello-game.kasia2.vercel.app/game" target="_blank" rel='noopener noreferrer' className="link-active" className="link" >Othello Game</a></strong>&nbsp;- A mobile responsive strategy board game for two players, played on an 8×8 uncheckered board. Added aditional feature of picking color choices for players.</p>
                         </article>
                         <article className='resume-projects'>
-                            <p className='resume-p'><strong><a href="https://yoga-capstone.now.sh/" target="_blank" rel='noopener noreferrer' className="link-active" className="link" >Yogi-Track</a></strong>&nbsp;- (Web App) - A Full-Stack mobile first responsive designed app for yoga teachers and enthusiasts, helping a user to explore and learn a variety of poses, providing an english and sanskrit name, photo and video.  Users can create an accounts where he/she can save poses into yoga-flows as inspirations for a class or personal practice with notes and attributes.</p>
+                            <p className='resume-p'><strong><a href="https://green-thumbs-up.now.sh/" target="_blank" rel='noopener noreferrer' className="link-active" className="link" >GREENthumbsUP</a></strong>&nbsp;- A Full-Stack mobile first responsive web application designed to influance change in restaurant business. It allows a user to research local restaurants and create a enviroment oriented review. Once reviewed a restaurant becomes part of a new database of Earth friendly places that adhere to enviromnet conscientious practices.</p>
                         </article>
                         <article className='resume-projects'>
-                            <p className='resume-p, p'><strong><a href='https://noteful-app-client-bms8il0pd.now.sh/' target="_blank" rel='noopener noreferrer' className="link-active" className="link" >Noteful</a></strong>&nbsp;- (Web App)- A CRUD app that allows users to keep an online notebook. Using Rest Programming techniques this app was built with a PostgreSQL db, Node and Express server and a React Client.  </p>
+                            <p className='resume-p'><strong><a href="https://yoga-capstone.now.sh/" target="_blank" rel='noopener noreferrer' className="link-active" className="link" >Yogi-Track</a></strong>&nbsp;- A Full-Stack mobile first responsive designed app for yoga teachers and enthusiasts, helping a user to explore and learn a variety of poses, providing an english and sanskrit name, photo and video.  Users can create an accounts where he/she can save poses into yoga-flows as inspirations for a class or personal practice with notes and attributes.</p>
+                        </article>
+                        <article className='resume-projects'>
+                            <p className='resume-p, p'><strong><a href='https://noteful-app-client-bms8il0pd.now.sh/' target="_blank" rel='noopener noreferrer' className="link-active" className="link" >Noteful</a></strong>&nbsp;- A CRUD app that allows users to keep an online notebook. Using Rest Programming techniques this app was built with a PostgreSQL db, Node and Express server and a React Client.  </p>
                         </article>
                         <div className="clear"></div>
                     </section>
@@ -85,7 +91,7 @@ export default function Resume(props) {
                         <div className="sectionContent education">
                             <article>
                                 <h2 className='resume-h2'>Thinkful</h2>
-                                <p className="subDetails resume-p">Full Stack Software Engineering  -   April 2019 to February 2020</p>
+                                <p className="subDetails resume-p">Full Stack Software Engineering  -   March 2019 to March 2020</p>
                             </article>
                             <div className="clear"></div>
                             <ul className='education-list'>
@@ -103,14 +109,7 @@ export default function Resume(props) {
                             <ul className='education-list'>
                                 <li>Specializing in Drawing and Painting; expert in Intaglio Printing, Art History and Color Theory</li>
                             </ul>
-                            <article>
-                                <h2 className='resume-h2'>Massachusetts Institute of Surface Design </h2>
-                                <p className="subDetails resume-p">Cerified Decorative Surface Designer			  2007</p>
-                            </article>
-                            <div className="clear"></div>
-                            <ul className='education-list'>
-                                <li>Expert in Old World Plaster Design, Wall Glazing Finishes, Woodgraining, Marbleizing, Color and Design Principles. </li>
-                            </ul>
+                           <br />
                         </div>
                     <div className="clear"></div>
                     </section>
@@ -119,9 +118,18 @@ export default function Resume(props) {
                         <h1 className='resume-h1'>Work Experience</h1>
                     </div>
                     <div className="sectionContent work-experience">
+                    <article>
+                            <h2 className='resume-h2'>Full Stack Developer Freelancer</h2>
+                            <p className="subDetails resume-p">March 2019 to Present</p>
+                        </article>
+                        <div className='clear'>
+                            <ul className='work-experience-list'>
+                            <li>I aspire to build experiences that inspire change and better reality. I have a curious mind and entrepreneurial background and strive to find the best solution to a problem. My Web Development experience includes building complex, scalable Java Script applications using React, Node, with SQL database, Firebase with NOSQL db, along with vast communication skills coming from years of business ownership.</li>
+                            </ul>
+                        </div>
                         <article>
                             <h2 className='resume-h2'>Student at Thinkful</h2>
-                            <p className="subDetails resume-p">May 2018 to February 2020</p>
+                            <p className="subDetails resume-p">March 2019 to March 2020</p>
                         </article>
                         <div className='clear'>
                             <ul className='work-experience-list'>

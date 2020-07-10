@@ -2,6 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './Nav.css';
 import Phone from '../Footer/Phone';
+import resumePdf from './KasiaMirowskaResume.pdf';
 
 export default class Nav extends React.Component {
     constructor(props) {
@@ -16,28 +17,28 @@ export default class Nav extends React.Component {
         });
     }
 
-    
+
 
     render() {
         return (
             <div className='nav'>
                 <div className='links'>
-                    <Link exact to='/resume' className="link-active" className="link"  >
+                    <Link to='/resume' className="link-active" className="link"  >
                         Resume
                         </Link>
-
-                    <Link exact to='/projects' className="link-active" className="link" >
+                    <Link to='/projects' className="link-active" className="link" >
                         Projects
                         </Link>
 
-                    <Link exact to='/#about' className="link-active" className="link">
+                    <Link to='/#about' className="link-active" className="link">
                         About
                     </Link>
                 </div>
                 <div className='icons'>
                     <section className='nav-icons'>
+                        <a href={resumePdf} download="KasiaMirowskaResume">ResumePDF</a> 
                         <a href='mailto:amirokasia@gmail.com' className="link-active" className="link" target="_blank" rel='noopener noreferrer' >Email</a>
-                        <button  id='button2' className="link-active" className='link phone-icon' onClick={this.togglePopup.bind(this)}>Phone</button>
+                        <button id='button2' className="link-active" className='link phone-icon' onClick={this.togglePopup.bind(this)}>Phone</button>
                         <a href='https://github.com/KasiaMirowska' className="link-active" className='link' target="_blank" rel='noopener noreferrer'>Github</a>
                         <a href='https://www.linkedin.com/in/KasiaMirowska/' className="link-active" className='link' target="_blank" rel='noopener noreferrer'>In</a>
                     </section>
