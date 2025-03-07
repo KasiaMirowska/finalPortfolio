@@ -1,0 +1,21 @@
+.stackContainer {
+  /* background-color: rgb(69, 151, 120);  */
+
+  /* font-size: 2em; */
+}
+
+.listMain {
+  background-color: #38761d;
+  /* background-color: #d9ead3; */
+  font-family: "Lexend Giga", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 1.5em;
+  padding: 0;
+}
+.listHeader {
+  padding: 1em 6.5em;
+}
+.list {
+  padding: 1em 4em 3em 4em;
+}
