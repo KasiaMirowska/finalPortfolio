@@ -23,13 +23,13 @@ export default class Footer extends React.Component {
     return (
       <footer className="footer" id="contact">
         <div className="scroll-to-top">
-          <a
+          <button
             className="arrow"
-            className="w3-animate-fading"
+            // className="w3-animate-fading"
             onClick={this.scrollToTop}
           >
             <i className="fas fa-chevron-circle-up arrow fa-3x"></i>
-          </a>
+          </button>
         </div>
         <div className="footer-text">
           <h4>
