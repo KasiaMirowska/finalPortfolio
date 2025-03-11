@@ -6,7 +6,7 @@ export const StackList = () => {
   return (
     <ul className="listMain">
       <h2 className="listHeader">SKILLS:</h2>
-      <Flex flexDirection="row" className="list" justifyCenter="flex-start">
+      <Flex flexWrap="wrap" className="listTotal">
         <Flex flexDirection="column" className="list">
           <li>• JavaScript ES6 </li>
           <li>• Typescript </li>
