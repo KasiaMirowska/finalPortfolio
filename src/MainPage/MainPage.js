@@ -48,10 +48,10 @@ export default function MainPage(props) {
           <br />
           <div className="life">
             <p>
-              When I’m not coding, you’ll find me teaching yoga, training in
-              aerial silks, or painting—always exploring new ways to innovate,
-              both on and off the screen. Let’s build something amazing
-              together!
+              When I’m not coding, you’ll find me teaching yoga, rock climbing
+              with my 3.5 year old son, or painting—always exploring new ways to
+              innovate, both on and off the screen. Let’s build something
+              amazing together!
             </p>
           </div>
           <div />
