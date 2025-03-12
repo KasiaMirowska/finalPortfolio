@@ -21,8 +21,8 @@ export default class Nav extends React.Component {
       <div className="nav">
         <div className="links">
           <a
-            // href="/files/KASIA_MIROWSKA_RESUME.pdf"
-            href="https://kasiamirowska.netlify.app/files/KASIA_MIROWSKA_RESUME.pdf"
+            href="/files/KASIA_MIROWSKA_RESUME.pdf"
+            //href="https://kasiamirowska.netlify.app/files/KASIA_MIROWSKA_RESUME.pdf"
             target="_blank"
             rel="noopener noreferrer"
             activeclass="link-active"
